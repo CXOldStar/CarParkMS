@@ -908,6 +908,10 @@ p.non span{
     color: #ffffff;
     background-color: #204056;
 }
+.p-one .stop {
+    color: #ffffff;
+    background-color: #8c2830;
+}
 
 .p-one p {
 	font-size: 1.7em;

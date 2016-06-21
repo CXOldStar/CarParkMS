@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Sqlite (Xerial) - db.sqlite3" uuid="9d40c68d-781d-4f7f-9b0f-1ba12e352717">
+      <secret-storage>master_key</secret-storage>
+      <auth-required>false</auth-required>
+    </data-source>
+    <data-source name="MySQL - carpark@localhost" uuid="985edbb2-a149-431d-ab0f-c4814e804be0">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>carpark.*</schema-pattern>
+      <default-schemas>carpark.*</default-schemas>
+    </data-source>
+  </component>
+</project>

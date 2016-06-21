@@ -14,9 +14,9 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from carpark.views import index
+from carpark.views import index, manage
 urlpatterns = [
-    url(r'^$', 'carpark.views.index', name='home'),
-    url(r'^manage$', 'carpark.views.manage', name='manage'),
+    url(r'^$', index, name='home'),
+    url(r'^manage$', manage, name='manage'),
     url(r'^admin/', include(admin.site.urls)),
 ]
