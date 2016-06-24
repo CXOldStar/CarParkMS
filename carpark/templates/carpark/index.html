@@ -73,39 +73,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     </a>
 
                                     <h4 class="empty">空闲</h4>
-                                    <div><span class="item_price valse">00:22:33</span></div>
+                                    <div><span class="parking-duration"> </span></div>
                                 {% elif parking.status == 2 %}
                                     <a href="single.html">
-										<img src="{% static 'carpark/images/12.jpg' %}" alt="" class="img-responsive" />
+										<img src="{% static 'carpark/images/11.jpg' %}" alt="" class="img-responsive" />
 										<div class="mask">
 											<span>Quick View</span>
 										</div>
                                     </a>
 
                                     <h4 class="occupied">占 用</h4>
-                                    <div><span class="item_price valse"> </span></div>
+                                    <div class=""></div>
+                                    <div><span class="parking-duration"> {{ parking.last_park_time | date:'Y-m-d H:i:s'}}</span></div>
                                 {% elif parking.status == 3 %}
                                     <a href="single.html">
-										<img src="{% static 'carpark/images/9.jpg' %}" alt="" class="img-responsive" />
+										<img src="{% static 'carpark/images/11.jpg' %}" alt="" class="img-responsive" />
 										<div class="mask">
 											<span>Quick View</span>
 										</div>
                                     </a>
                                     <h4 class="repair">维护中</h4>
-                                    <div><span class="item_price valse"> </span></div>
+                                    <div><span class="parking-duration"> </span></div>
                                 {% else %}
                                     a href="single.html">
-										<img src="{% static 'carpark/images/9.jpg' %}" alt="" class="img-responsive" />
+										<img src="{% static 'carpark/images/11.jpg' %}" alt="" class="img-responsive" />
 										<div class="mask">
 											<span>Quick View</span>
 										</div>
                                     </a>
                                     <h4 class="stop">停止使用</h4>
-                                    <div><span class="item_price valse"> </span></div>
+                                    <div><span class="parking-duration"> </span></div>
 
                                 {% endif %}
 
-                                <p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">{{ parking.name }}</span></a></p>
+                                <p><a class="item_add" href="#"><i></i> <span class=" parking-duration valsa">{{ parking.name }}</span></a></p>
 
 
 							</div>

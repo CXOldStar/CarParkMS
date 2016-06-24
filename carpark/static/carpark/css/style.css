@@ -96,7 +96,7 @@ body a:hover{
 .grid_1 img{
 	margin-bottom:1em;
 }
-span.item_price {
+span.parking-duration {
   color:#f65a5b;
   font-size: 14px;
   margin-left: -5px;
@@ -2689,7 +2689,7 @@ label.radio {
 	.let a {
 	  width: 45% !important;
 	}
-	span.item_price {
+	span.parking-duration {
 		font-size: 0.5em;
 	}
 	.footer-grid:nth-child(2) {
@@ -2704,7 +2704,7 @@ label.radio {
 	.details-left-info p {
 		font-size: 14px;
 	}
-	span.item_price {
+	span.parking-duration {
 	  font-size: 1em;
 	}
 	.single-but input[type="submit"] {
@@ -2737,7 +2737,7 @@ label.radio {
 	.pro-grd {
 		top: 32%;
 	}
-	span.item_price {
+	span.parking-duration {
 	  font-size: 0.7em;
 	}
 	.p-one h4 {
@@ -3075,7 +3075,7 @@ label.radio {
 	  width: 100%;
 	  margin-bottom: 1em;
 	}
-	span.item_price {
+	span.parking-duration {
 	  font-size: 1.5em;
 	}
 	.single-but input[type="submit"] {
@@ -3102,7 +3102,7 @@ label.radio {
 	.pro-grd a {
 	  padding:5.5em 5.585em 4.5em;
 	}
-	span.item_price {
+	span.parking-duration {
 	  font-size: 0.7em !important;
 	}
 	.products-grid-left {

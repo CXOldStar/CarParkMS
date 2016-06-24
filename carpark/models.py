@@ -21,7 +21,7 @@ class Parking(models.Model):
                                  )
     eui = models.CharField(max_length=32, unique=True)
     mac = models.CharField(max_length=32, unique=True)
-    last_parking_time = models.DateTimeField(null=True)
+    last_park_time = models.DateTimeField(null=True)
 
 
 class ParkingRecord(models.Model):
